@@ -5,24 +5,87 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Forms</title>
 </head>
+
 <body>
     <form action="/action">
-     Username
-     input type="text" placeholder="Enter your name">
+    <div>
+        <label for="username">Enter your Username</label>
+        <input type="text" id="username" placeholder="Enter your name" id="username" name="user">
+    </div>
         
-    <br>
-    Password
-    <input type="password" placeholder="Enter your password">
-    <br>
-    Number
-    <input type="number" placeholder="Number please!">
-    <br>
+<br>
+    <Div>
+        <label for="password">Enter your password</label>
+        <input type="password" placeholder="Enter your password" id="password" name="pass">
+    </Div>
+
+<br>
+
+     <div>
+        <label for="age">Enter your age</label>
+        <input type="number" placeholder="Enter your age!" id="age">
+     </div>    
+    
+
+<br>
+
     Time
     <input type="time" placeholder="Enter the time">
     <br>
     Color
-    <input type="color" placeholder="color">
+    <input type="color" placeholder="color" >
     <br>
+
+
+
+    <button type="submit">Type1</button>
+    <button type="button">Hello</button>
+    <button type="reset">Reset</button>
+    <input type="submit">
+    
     </form>
+    
+       
+    <form action="https://www.google.com/search">
+        <input type="text" placeholder="Search in Google" name="q">
+        <button>Search</button>
+    </form>
+
+    <form action="https://www.youtube.com/results?">
+        <input type="text" placeholder="Search in youtube" name="search_query">
+        <button>Search</button>
+    </form>
+
+        <form action="/action">
+            
+        <input type="checkbox" name="age" id="age" checked/>
+        <label for="age">I m 18+</label>
+        <input type="radio" name="fruit" id="banana" >
+        <label for="banana">banana</label>
+        <input type="radio" name="fruit" id="apple" >
+        <label for="apple">apple</label>
+        <input type="radio" name="fruit" id="orange" >
+        <label for="orange">orange</label>
+    
+    
+        <div>
+            Choose your profession
+            <select name="profession" id="profession">
+                <option name="stu">Student</option>
+                <option name="dev">Developer</option>
+            </select>
+        </div>
+        <button>submit</button>
+        <label for="vol">Select your volume level</label>
+         <input type="range" id="vol" min="0" max="100" name="vol">
+         <button>Submit</button>
+         <label for="feedback">Please guve your valuable feedback</label>
+        <textarea id="feedback" name="feedback"></textarea> 
+    <button>Submit</button> 
+ </form>
+    
+
+    
+
 </body>
 </html>
