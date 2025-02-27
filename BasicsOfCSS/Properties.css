@@ -13,7 +13,7 @@ button{
 
 
 
-h2{
+/* h2{
     color: orange;
 }
 
@@ -25,7 +25,76 @@ button{
 p{
     color: white;
     background-color: black;
+} */
+
+
+/* h1{
+    text-align: center;
+    text-decoration: line-through;
+     border: solid;
+    width: 50%; 
+    letter-spacing: 10px;
+    font-size: 20px;
+    font-family:'Times New Roman', Times, serif;  cssfontstack.com */
+/* }
+
+h2{
+font-weight: 800; /* normal means 400  */
+/* text-decoration:overline wavy blue;
 }
 
+a{
+    text-decoration: none;
+} */
+ 
 
+/* h1{
+    font-family: league spartan;
+    color: #ffa511;
+    text-align: center;
+    font-size: 55px;
+    font-weight: 900;
+    letter-spacing: 2px;
+    line-height: 1.5;
+    text-decoration: double underline teal;
+    text-transform: uppercase;
+}
+ */
 
+ p{
+    color:  #A52A2A;
+
+ }
+
+ body{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+ }
+
+ h1{
+    color: red;
+    
+ }
+
+ h3{
+    color: black;
+ }
+a{
+    color: rgb(0, 255, 0);
+    text-decoration: none;
+}
+button{
+    background-color: white;
+    color: blueviolet;
+}
+textarea{
+    color: #000000;
+}
+
+p{
+    line-height: 30px;
+}
+
+span{
+    text-decoration: underline;
+}
