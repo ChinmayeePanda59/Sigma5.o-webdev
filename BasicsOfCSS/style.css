@@ -1,0 +1,16 @@
+*{
+    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
+    background-color: cadetblue;
+}
+h3{
+    color: blueviolet;
+}
+h1{
+    color:#b92b27;
+}
+#login{
+    background-color: darksalmon;
+}
+#signup{
+    background-color: crimson;
+}
