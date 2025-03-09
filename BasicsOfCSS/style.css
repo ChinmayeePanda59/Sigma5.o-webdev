@@ -9,8 +9,24 @@ h1{
     color:#b92b27;
 }
 #login{
-    background-color: darksalmon;
+    background-color: rgba(73, 20, 3, 0.579);
 }
 #signup{
     background-color: crimson;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
+.upvote{
+    color: chartreuse;
+}
+
+
+
+
+
+
+
+
+
+
+
+
