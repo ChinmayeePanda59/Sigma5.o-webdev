@@ -20,13 +20,33 @@ h1{
 }
 
 
+p a{
+    color: purple;
+}
 
+p+h3{
+    text-decoration: underline;
+}
 
+div>input{
+    background-color:darkgreen;
+}
 
+input[type="text"]{
+    color:red
+}
 
+input[type="password"]{
+    color: blue;
+}
 
+button:hover{
+    background-color: black;
+    color:green
+}
 
-
-
+button:active{
+    background-color: pink;
+}
 
 
