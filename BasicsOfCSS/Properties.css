@@ -61,7 +61,7 @@ a{
 }
  */
 
- p{
+ /* p{
     color:  #A52A2A;
 
  }
@@ -97,5 +97,41 @@ p{
 
 span{
     text-decoration: underline;
+}
+ */
+
+
+#mainTopic{
+    color: Blue;
+} 
+
+*{
+    text-align: center;
+}
+
+h1,h3,h5{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.content{
+    color:white;
+    background-color: cornflowerblue;
+}
+div >button{
+    color: azure;
+    background-color: purple;
+}
+
+button:hover{
+    background-color: yellow;
+    color: blue;
+}
+p:nth-of-type(2n
++1){
+    color: yellow;
+}
+
+h1::first-letter{
+    color: red;
 }
 
