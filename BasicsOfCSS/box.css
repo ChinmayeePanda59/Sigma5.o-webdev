@@ -12,3 +12,11 @@ div{
     margin: 50px;
 }
 
+h2{
+    display: inline;
+}
+
+span{
+    display: block;
+}
+
