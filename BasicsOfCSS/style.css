@@ -1,52 +1,53 @@
-*{
-    font-family:Verdana, Geneva, Tahoma, sans-serif  ;
-    background-color: cadetblue;
-}
-h3{
-    color: blueviolet;
-}
-h1{
-    color:#b92b27;
-}
-#login{
-    background-color: rgba(73, 20, 3, 0.579);
-}
-#signup{
-    background-color: crimson;
-    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-}
-.upvote{
-    color: chartreuse;
+/* Qs1. Add a 2s transition on box1 for width changes.
+       It should have 'ease-in' speed curve & 0.5s delay  */
+
+#box1 {
+  width: 100px;
+  height: 100px;
+  background: green;
+  transition: ewidth 2s ease-in 0.5s;
 }
 
-
-p a{
-    color: purple;
+#box1:hover {
+  width: 600px;
 }
 
-p+h3{
-    text-decoration: underline;
+/* Qs2. Using transform, move box2 200px to the right  & 
+        200px down. Also rotate it 90deg.*/
+
+#box2 {
+  width: 100px;
+  height: 100px;
+  background: red;
+  transform: translate(200px,200px) rotate(90deg);
 }
 
-div>input{
-    background-color:darkgreen;
+/* Qs3. Using transform, skew box3 20deg along the x axis.*/
+
+#box3 {
+  width: 100px;
+  height: 100px;
+  background: lightblue;
+  transform: skewX(20deg);
 }
 
-input[type="text"]{
-    color:red
+/* Qs4. Set a 2px horizontal & 2px vertical, green shadow 
+        for box4, with a 5px blur radius.*/
+
+#box4 {
+  width: 100px;
+  height: 100px;
+  background: lightgreen;
+  box-shadow: 2px 2px 5px green
+  
+  ;
 }
 
-input[type="password"]{
-    color: blue;
+/* Qs5. Set Your picture or any picture as the background of the div
+        "myPic". Also, set transparency of this div to 50%. */
+
+#myPic {
+  width: 200px;
+  height: 200px;
+  background: pink;
 }
-
-button:hover{
-    background-color: black;
-    color:green
-}
-
-button:active{
-    background-color: pink;
-}
-
-
